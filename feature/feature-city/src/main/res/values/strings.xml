@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天氣預報</string>
+    
+    <!-- 天氣相關 -->
+    <string name="current_weather">當前天氣</string>
+    <string name="weekly_forecast">一週預報</string>
+    <string name="feels_like">體感溫度</string>
+    <string name="humidity">濕度</string>
+    <string name="wind_speed">風速</string>
+    <string name="pressure">氣壓</string>
+    
+    <!-- 城市相關 -->
+    <string name="select_city">選擇城市</string>
+    <string name="add_city">新增城市</string>
+    <string name="add_city_message">請在搜索框輸入城市名稱進行搜索，找到城市後點擊即可添加。</string>
+    <string name="search_city">搜尋城市</string>
+    
+    <!-- 錯誤訊息 -->
+    <string name="error_loading_weather">載入天氣資料失敗</string>
+    <string name="error_loading_cities">載入城市列表失敗</string>
+    <string name="error_searching_cities">搜尋城市失敗</string>
+    <string name="error_selecting_city">選擇城市失敗</string>
+    <string name="error_deleting_city">刪除城市失敗</string>
+    <string name="error_network">網路連線失敗</string>
+    
+    <!-- 按鈕 -->
+    <string name="retry">重試</string>
+    <string name="cancel">取消</string>
+    <string name="ok">確定</string>
+    <string name="default_city_name">台北市</string>
+    <string name="default_city_country">台灣</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主要顏色 -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="secondary_blue">#03A9F4</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- 天氣狀態顏色 -->
+    <color name="sunny">#FFD54F</color>
+    <color name="cloudy">#90A4AE</color>
+    <color name="rainy">#42A5F5</color>
+    <color name="snowy">#E1F5FE</color>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天氣預報</string>
+    
+    <!-- 天氣相關 -->
+    <string name="current_weather">當前天氣</string>
+    <string name="weekly_forecast">一週預報</string>
+    <string name="feels_like">體感溫度</string>
+    <string name="feels_like_format">體感溫度 %1$s</string>
+    <string name="humidity">濕度</string>
+    <string name="humidity_format">濕度: %1$s</string>
+    <string name="wind_speed">風速</string>
+    <string name="wind_speed_format">風速: %1$s</string>
+    <string name="pressure">氣壓</string>
+    <string name="pressure_format">氣壓: %1$s</string>
+    
+    <!-- 城市相關 -->
+    <string name="select_city">選擇城市</string>
+    <string name="add_city">新增城市</string>
+    <string name="search_city">搜尋城市</string>
+    <string name="default_city_name">台北市</string>
+    <string name="default_city_country">台灣</string>
+    <string name="default_city_id">1668341</string>
+    <string name="add_city_message">請在搜索框輸入城市名稱進行搜索，找到城市後點擊即可添加。</string>
+    
+    <!-- 星期 -->
+    <string name="monday">週一</string>
+    <string name="tuesday">週二</string>
+    <string name="wednesday">週三</string>
+    <string name="thursday">週四</string>
+    <string name="friday">週五</string>
+    <string name="saturday">週六</string>
+    <string name="sunday">週日</string>
+    
+    <!-- 錯誤訊息 -->
+    <string name="error_loading_weather">載入天氣資料失敗</string>
+    <string name="error_loading_cities">載入城市列表失敗</string>
+    <string name="error_searching_cities">搜尋城市失敗</string>
+    <string name="error_selecting_city">選擇城市失敗</string>
+    <string name="error_deleting_city">刪除城市失敗</string>
+    <string name="error_network">網路連線失敗</string>
+    
+    <!-- Log 訊息 (開發用，可選) -->
+    <string name="log_selected_city">選中城市: %1$s (%2$s)</string>
+    <string name="log_current_weather_result">當前天氣 Result: %1$s</string>
+    <string name="log_forecast_result">預報 Result: %1$s</string>
+    <string name="log_current_weather_error">當前天氣錯誤: %1$s</string>
+    <string name="log_forecast_error">預報錯誤: %1$s</string>
+    <string name="log_current_weather">當前天氣: %1$s</string>
+    <string name="log_weekly_forecast_count">一週預報數量: %1$d</string>
+    <string name="log_loading_weather_failed">載入天氣失敗</string>
+    <string name="log_calling_current_weather_api">調用當前天氣 API: %1$s</string>
+    <string name="log_api_response_success">API 響應成功</string>
+    <string name="log_fetch_current_weather_failed">獲取當前天氣失敗</string>
+    <string name="log_using_cache_data">使用緩存數據</string>
+    <string name="log_no_cache_data">無緩存數據</string>
+    <string name="log_calling_forecast_api">調用預報 API: %1$s</string>
+    <string name="log_api_response_success_data_points">API 響應成功，數據點數: %1$d</string>
+    <string name="log_converted_daily_forecast_count">轉換後的每日預報數: %1$d</string>
+    <string name="log_fetch_forecast_failed">獲取預報失敗</string>
+    <string name="log_error_message">錯誤訊息: %1$s</string>
+    <string name="log_searching_city">搜索城市: %1$s</string>
+    <string name="log_local_search_results">本地搜索結果: %1$d</string>
+    <string name="log_searching_from_network">從網路搜索城市</string>
+    <string name="log_network_search_results">網路搜索結果: %1$d</string>
+    <string name="log_search_failed">搜索失敗</string>
+    
+    <!-- API 參數 (技術常數，用於 API 調用) -->
+    <string name="api_units_metric">metric</string>
+    <string name="api_lang_zh_tw">zh_tw</string>
+    <string name="api_type_like">like</string>
+    
+    <!-- 按鈕 -->
+    <string name="retry">重試</string>
+    <string name="cancel">取消</string>
+    <string name="ok">確定</string>
+    
+    <!-- 格式化單位 (用於 UiUtils) -->
+    <string name="unit_celsius">°C</string>
+    <string name="unit_kmh"> km/h</string>
+    <string name="unit_percent">%</string>
+    <string name="unit_hpa"> hPa</string>
+</resources>
