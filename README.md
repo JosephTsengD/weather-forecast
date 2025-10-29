@@ -1,6 +1,11 @@
 # Weather Forecast App
 
-一個現代化的 Android 天氣預報應用程式，使用 Kotlin、Clean Architecture 和傳統 View 系統開發。
+一個現代化的 Android 天氣預報應用程式，使用 Kotlin、Clean Architecture 和View 系統開發。
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c4a771a6-948a-42ed-981d-05a96330b39b" height="420" />
+  <img src="https://github.com/user-attachments/assets/3c9c5e58-5a58-4b08-ad56-535b5c70e8ed" height="420" />
+</p>
 
 ## 功能特色
 
@@ -33,7 +38,7 @@ weather-forecast/
 │   ├── core-common/               # 共用工具類
 │   ├── core-network/              # 網路層
 │   ├── core-database/             # 數據庫層
-│   └── core-ui/                   # UI 共用組件
+│   └── core-utils/                   # 共用組件
 ├── feature/
 │   ├── feature-weather/           # 天氣預報功能
 │   └── feature-city/              # 城市管理功能
@@ -42,18 +47,7 @@ weather-forecast/
 ```
 
 更多細節請見：
-- `ARCHITECTURE.md`（架構與資料流）
-- `PRODUCT_OVERVIEW.md`（產品邏輯與使用情境）
-- `DEVELOPMENT_GUIDE.md`（開發、測試、故障排除）
-
-## 開始使用
-
-1. 克隆專案
-2. 在 `local.properties` 中添加您的 OpenWeatherMap API Key：
-   ```
-   WEATHER_API_KEY=your_api_key_here
-   ```
-3. 建置並執行專案
+- `SUMMARY_REPORT.md`（專案摘要報告）
 
 ## API 配置
 
@@ -81,6 +75,15 @@ weather-forecast/
 - Database Module: Room Database
 - Repository Module: Data Layer Implementation
 - ViewModel Module: Presentation Layer
+
+AI 工具使用
+
+#### Claude AI (Anthropic) / Cursor AI
+**使用場景**：
+- **架構設計諮詢**：Clean Architecture 的最佳實踐、模組劃分建議
+- **程式碼生成**：Repository 實作範例、ViewModel 狀態管理範例
+- **錯誤診斷**：API Key 傳遞問題、Koin 依賴問題的除錯協助
+- **文件撰寫**：技術文件與程式碼註解生成
 
 ## 測試
 
@@ -138,36 +141,10 @@ weather-forecast/
 3. 更新 Database 類別
 4. 實作數據映射函數
 
-## 貢獻指南
-
-1. Fork 專案
-2. 創建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交變更 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 開啟 Pull Request
-
-## 授權
-
-MIT License
-
-## 聯絡資訊
-
-如有問題或建議，請透過以下方式聯絡：
-- 建立 Issue
-- 發送 Pull Request
-- 發送 Email
-
 ---
 
-**開發者**: [Your Name]  
+**開發者**: Joseph Tseng 曾少甫
 **版本**: 1.0.0  
 **最後更新**: 2025-10-29
 
-## 進一步閱讀
-
-- `API_USAGE_GUIDE.md` - API 使用指南
-- `DEBUG_GUIDE.md` - 調試指南
-- `TEST_INSTRUCTIONS.md` - 完整測試指南
-- `PROJECT_COMPLETION_REPORT.md` - 完成報告
-- `AI_TOOLS_USAGE.md` - 本專案 AI 工具使用說明
 # weather-forecast
